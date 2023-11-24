@@ -6,18 +6,18 @@ public class Main {
     }
 
     public static void task1() {            // Compounding multiple Strings into a new String
-        String firstName = "Ivan";
-        String middleName = "Ivanovich";
-        String lastName = "Ivanov";
+        String firstName = "Sergey";
+        String middleName = "Yakovlevich";
+        String lastName = "Sudanov";
         char s = ' ';
 
-        String fullName = firstName + s + middleName + s + lastName;
+        String fullName = lastName + s + firstName + s + middleName;
 
         System.out.println("Ф. И. О. сотрудника — " + fullName);
     }
 
     public static void task2() {            // Upper-case conversion of a String
-        String fullName = "Ivan Ivanovich Ivanov";
+        String fullName = "Valeriy Urievich Stoyanov";
 
         String fullNameRegister = fullName.toUpperCase();
 
@@ -25,7 +25,7 @@ public class Main {
     }
 
     public static void task3() {            // Replacement of specified characters in a String
-        String fullName = "Иванов Семён Семёнович";
+        String fullName = "Потёмкин Артём Михайлович";
 
         String fullNameSimple = fullName.replace('ё', 'е');
 
